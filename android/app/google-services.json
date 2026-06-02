@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "297464127236",
+    "firebase_url": "https://flutter-b2c-app.firebaseio.com",
+    "project_id": "flutter-b2c-app",
+    "storage_bucket": "flutter-b2c-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297464127236:android:27f192ef0835da72",
+        "android_client_info": {
+          "package_name": "com.hydrao.b2c"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297464127236-5tqfdrhe4fjcht2mkr57p1md88kn6lsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjDKB0Lb1xqiQ96L1CDuNYxawPryF4zf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297464127236-5tqfdrhe4fjcht2mkr57p1md88kn6lsh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "297464127236-3cind7u6323abbp1t9t6uenqo615cdos.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hydrao.b2c"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297464127236:android:4a0e069be08311eea2fa51",
+        "android_client_info": {
+          "package_name": "com.hydrao.offlineB2c"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297464127236-5tqfdrhe4fjcht2mkr57p1md88kn6lsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjDKB0Lb1xqiQ96L1CDuNYxawPryF4zf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297464127236-5tqfdrhe4fjcht2mkr57p1md88kn6lsh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "297464127236-3cind7u6323abbp1t9t6uenqo615cdos.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hydrao.b2c"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+  errors:
+    # Transforme les oublis de 'const' en erreurs bloquantes
+    prefer_const_constructors: error
+    # Force la gestion des erreurs dans les Future
+    unawaited_futures: error
+
+linter:
+  rules:
+    - always_declare_return_types
+    - cancel_subscriptions
+    - close_sinks
+    - avoid_print # Pour ne pas laisser de logs en production

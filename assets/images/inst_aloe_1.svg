@@ -1,0 +1,49 @@
+<svg id="Calque_1" data-name="Calque 1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 70.87 70.87">
+    <defs>
+        <clipPath id="clip-path" transform="translate(0.01 0.01)">
+            <rect x="10.51" y="12.99" width="51.02" height="44.64" fill="none"/>
+        </clipPath>
+    </defs>
+    <g id="Calque_2" data-name="Calque 2">
+        <g id="Calque_1-2" data-name="Calque 1-2">
+            <path d="M35.43,70.49a35.06,35.06,0,1,0-35-35.07h0A35.06,35.06,0,0,0,35.43,70.49" transform="translate(0.01 0.01)" fill="#fff"/>
+            <g clip-path="url(#clip-path)">
+                <path d="M59.26,55.36s-5.9-.69-9-2.9c0,0-1.15-2.6-2.31-3.06,0,0-1.7-2-.77-3.18,0,0-3.1-.54-2.63-2.87l3.56-3" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M44.92,43s-5,1.36-3.62-2.71c0,0,.66-2.48,7-2.83L54.49,37" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M47.76,37.54,45.21,35s-.54-2.21,1-1.51l1.54,1.08L55,37.09s3.57-.08,4.3.66" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M46.21,33.48s0,1.32,1,1.47l.87-.27" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <line x1="49.13" y1="36.17" x2="49.9" y2="35.56" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M49.89,36.66s1.2-.92,1.73-.74" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M48,43.26a1.68,1.68,0,0,0,.54,2.65" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M48.69,39.2a8,8,0,0,1,2.39.47,1.07,1.07,0,0,1,.43.18,3.79,3.79,0,0,1,.4.22,3.69,3.69,0,0,1,.33.27l.26.29a3,3,0,0,1,.17.28.79.79,0,0,1,.09.23.42.42,0,0,0,0,.21h0l-.13-.17a1.36,1.36,0,0,0-.14-.18l-.2-.21a4.85,4.85,0,0,0-.58-.45,5.54,5.54,0,0,0-.74-.43,8.47,8.47,0,0,0-1.55-.53,7.44,7.44,0,0,0-.74-.15Z" transform="translate(0.01 0.01)" fill="#008dcc"/>
+                <path d="M59.26,18.5l-7.61.35c-1.55-.21-7.53,1.09-7.53,1.09-5.44.66-7.53-2.15-9-1s-4.86.56-5.19.38a2.77,2.77,0,0,0-2.71.1l-2-.23s-1.86.52.52,2.56c0,0,.67.73,2.88.58l2.06.58s2.76,3.22,4.82,3.4a32.86,32.86,0,0,1,7.43,5.89s.67.2,3-1.22a37,37,0,0,1,13.3.06" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M25.07,19.3s0,1.33,1,1c0,0,.71-.54.67-.9" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M32.5,23a1.61,1.61,0,0,1,.08-.49,2.68,2.68,0,0,1,.55-1,3,3,0,0,1,.42-.42A2.17,2.17,0,0,1,34,20.9a2,2,0,0,1,.48-.14h0l-.1.1c-.06.07-.16.13-.27.23l-.38.3a4.79,4.79,0,0,0-.44.33,2.83,2.83,0,0,0-.63.81,1.58,1.58,0,0,0-.15.45Z" transform="translate(0.01 0.01)" fill="#008dcc"/>
+                <path d="M38.76,27.11s2.32-1,4,.29" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M39.08,27.74s2.5,1.1,3.25,2.32" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M35.22,33.26s-3.38,1.08-4.08-.87c0,0-.59-1.34,0-2.13,0,0,1.28-2.15,1.55-2s1.36,0,1.36,1.47a7.5,7.5,0,0,1-.73,2.18l-.55.58" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M33.42,31.9s.42.44.32.71" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M32,29.65s.28-.83.55-.81.93.33.89.55-.08.78-.37.93S31.88,29.89,32,29.65Z" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M32.69,28.21s1.46-3-1.6-2c0,0-2.09,1.63-2.3,2.94A4.33,4.33,0,0,0,29,31.3a1.63,1.63,0,0,0,2,.7" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M30.61,27.4s.64-1,.91-1,1,.11,1,.68-.23,1.08-.46,1.13A1.28,1.28,0,0,1,30.61,27.4Z" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M28.73,30.11s-3.43,1-3.62-2.16c0,0,1.52-2.09,2.53-2.22,0,0,3.27.73-.26,4" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M26.48,27.13s.65-1,.83-1,1.52.44,1.18,1.31-.63.7-1,.62A2.35,2.35,0,0,1,26.48,27.13Z" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M25.65,27.14s-.7-.51-.64-1,0-1.86,1.46-1.94,1.08,1.42,1.09,1.52" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M45.21,35s-1.73-.58-3.31,2.9l.87.93" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M41.9,37.74l-.41-.15a3.09,3.09,0,0,1,2.67-3l.34.44S43.24,35.07,41.9,37.74Z" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M44.16,34.57s.16-.12-.61-1.22l-.61-1.1" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M41.49,37.59v0s-.58.36-1,0l-7-5.76" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M24.81,19.47A8.8,8.8,0,0,0,17,20.69s-4.22,2.23-3.64,4.53,9.64,1.48,12-.68" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M14.48,26.14a23.5,23.5,0,0,0,9.85-2" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M17.37,23s7-3.81,10.22.87" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <line x1="33.28" y1="27.41" x2="41.91" y2="35.19" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.32"/>
+                <path d="M45.81,31.07a13.93,13.93,0,0,1-.44-3.19,7.2,7.2,0,0,1,.07-1.18,5.11,5.11,0,0,1,.11-.54q.06-.23.15-.46a3,3,0,0,1,.18-.37,1.23,1.23,0,0,1,.17-.26l.17-.22-.16.23a1.13,1.13,0,0,0-.16.27,2.85,2.85,0,0,0-.16.37,4.24,4.24,0,0,0-.12.46,4.9,4.9,0,0,0-.08.53,7.13,7.13,0,0,0,0,1.16A12.55,12.55,0,0,0,45.86,30c.14.58.26,1,.26,1Z" transform="translate(0.01 0.01)" fill="#008dcc"/>
+                <path d="M37.31,34.68l-.26-1.89,1.21.5a5.07,5.07,0,0,1,2.13-2.35c1.89-.94,3.4-.15,4.66,1.53l-.83.75c-1-1.62-2.32-1.92-3.46-1.22a4.46,4.46,0,0,0-1.54,1.68l1.36.55L39.07,35.4l-1.51,1.16Z" transform="translate(0.01 0.01)" fill="#e94e1b"/>
+                <polygon points="20.68 17.38 18.23 14.93 19.13 14.03 15.28 12.99 16.3 16.84 17.2 15.95 19.66 18.39 20.68 17.38" fill="#e94e1b"/>
+            </g>
+            <circle cx="35.44" cy="35.44" r="35.06" fill="none" stroke="#008dcc" stroke-width="0.75"/>
+        </g>
+    </g>
+</svg>

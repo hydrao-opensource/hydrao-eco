@@ -1,0 +1,52 @@
+{
+  // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+  // Pointez pour afficher la description des attributs existants.
+  // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "offline",
+      "request": "launch",
+      "type": "dart",
+      "program": "${workspaceFolder}/lib/main.dart"
+    },
+    {
+      "name": "offline (debug)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "program": "${workspaceFolder}/lib/main.dart",
+      "args": ["--dart-define-from-file=env.json"]
+    },
+    {
+      "name": "offline (release)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "program": "${workspaceFolder}/lib/main.dart",
+      "args": ["--dart-define-from-file=env.json"]
+    },
+    {
+      "name": "offline EN (debug)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "program": "${workspaceFolder}/lib/main.dart",
+      "args": [
+        "--dart-define=FORCE_EN=true",
+        "--dart-define-from-file=env.json"
+      ]
+    },
+    {
+      "name": "offline EN (release)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "program": "${workspaceFolder}/lib/main.dart",
+      "args": [
+        "--dart-define=FORCE_EN=true",
+        "--dart-define-from-file=env.json"
+      ]
+    }
+  ]
+}

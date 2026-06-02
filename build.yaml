@@ -1,0 +1,17 @@
+targets:
+  $default:
+    builders:
+      hydrao_flutter_offline:companion_merge_generator:
+        enabled: true
+        generate_for:
+          - lib/repositories/db/*.dart
+
+builders:
+  companion_merge_generator:
+    import: "package:hydrao_flutter_offline/builders/generate_merge_builder.dart"
+    builder_factories: ["generateMerge"]
+    build_extensions: { ".dart": [".merge.dart"] }
+    auto_apply: dependents
+    build_to: source
+    # applies_builders:
+    #   - "source_gen:combining_builder"

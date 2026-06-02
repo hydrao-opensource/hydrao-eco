@@ -1,0 +1,26 @@
+<svg id="Calque_1" data-name="Calque 1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 78.19 70.87">
+    <defs>
+        <clipPath id="clip-path" transform="translate(0.01 0.01)">
+            <path d="M16.5,14.76V64.94A35.06,35.06,0,0,0,63.75,14.76Z" fill="none"/>
+        </clipPath>
+    </defs>
+    <g id="Calque_2" data-name="Calque 2">
+        <g id="Calque_1-2" data-name="Calque 1-2">
+            <path d="M35.43,70.49a35.06,35.06,0,1,0-35-35.07h0A35.06,35.06,0,0,0,35.43,70.49" transform="translate(0.01 0.01)" fill="#fff"/>
+            <g clip-path="url(#clip-path)">
+                <path d="M78,52.21,65.21,45.07a23.82,23.82,0,0,0-2.92-1.56h-.17c-.56,0-4.41-11.07-4.41-11.07a5.56,5.56,0,0,0-4.08-3.24A2.79,2.79,0,0,1,50.94,28,2.58,2.58,0,0,0,47,27.48s-1,1.26-2.16-.71c0,0-1.45-1.5-3.52.57,0,0-.54.76-1.28-.72,0,0-1.77-3.84-4.78.15,0,0-2,4.93-1.22,7,0,0,.5,2.53-.17,3.85,0,0-.58,2.06-.2,2.86L35.37,42" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.75"/>
+                <path d="M33.55,39.86H32.32a24.91,24.91,0,0,0-3.38-2.44s-2.3-5.26-5-3.71c0,0-2.35,1.64.24,3.94,0,0-.47,2.3,0,3.28a27.48,27.48,0,0,1,8.26,6.29s8,7.65,9,7.65c0,0,3.9,0,6.06,2.11l12,6.62,10.7,6.18" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.75"/>
+                <path d="M26.15,40.87s-.39-1,1.09-1.65" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.75"/>
+                <path d="M33.55,40.2s-.65,2.25,0,3.17" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.75"/>
+                <path d="M35.07,30.62s1.43-3.57,4.52-1.22" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.75"/>
+                <path d="M23.92,33.57s1.72-7.63,8.52-5.07l1.8,1.5" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.75"/>
+                <path d="M28,35.78s1.13-5.13,6.1-5.23l-.15.86s-4.11.66-5,6Z" transform="translate(0.01 0.01)" fill="#008dcc"/>
+                <path d="M33.55,29.44s-.86-5.39-6.31-4c0,0-4.87.73-5.74,6.83,0,0-.27,3.79,2.33,5.13,0,0,2.36-2.3,1-2.81,0,0-1.41-.87-1.8.25" transform="translate(0.01 0.01)" fill="none" stroke="#008dcc" stroke-miterlimit="10" stroke-width="0.75"/>
+                <path d="M20.62,22.34,20.36,19l2,1c1.15-1.65,1.89-3,3.92-3.86,3.36-1.43,5.89.07,7.9,3.1L32.71,20.5c-1.53-2.9-3.83-3.54-5.86-2.44A7.71,7.71,0,0,0,24,20.81l2.29,1.09L23.6,23.76l-2.72,1.86Z" transform="translate(0.01 0.01)" fill="#f08372"/>
+            </g>
+            <circle cx="35.44" cy="35.44" r="35.06" fill="none" stroke="#008dcc" stroke-width="0.75"/>
+        </g>
+    </g>
+</svg>
