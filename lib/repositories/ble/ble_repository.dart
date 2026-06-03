@@ -19,8 +19,10 @@ const _operationTimeout = Duration(seconds: 10);
 class BleRepository implements IBleRepository {
   // --- life cycle methods
 
-  // FIX(P3): champ privé — empêche toute modification externe
   List<String> _missingPermissions = [];
+  // Serializes concurrent checkPermissions() calls: all callers share the
+  // in-flight Future so only one native permission dialog session is active.
+  Future<bool>? _ongoingPermissionCheck;
 
   @override
   Stream<bool> get isScanning => FlutterBluePlus.isScanning;
@@ -41,34 +43,35 @@ class BleRepository implements IBleRepository {
   }
 
   @override
-  Future<bool> checkPermissions() async {
+  Future<bool> checkPermissions() {
+    return _ongoingPermissionCheck ??= _doCheckPermissions().whenComplete(() {
+      _ongoingPermissionCheck = null;
+    });
+  }
+
+  Future<bool> _doCheckPermissions() async {
     _missingPermissions = [];
     final Map<String, Permission> permissions = {};
 
     if (Platform.isAndroid) {
-      // Android 12+ : permissions BLE
       permissions['bluetoothScan'] = Permission.bluetoothScan;
       permissions['bluetoothConnect'] = Permission.bluetoothConnect;
 
-      // Android <12 : location obligatoire pour le scan BLE
-      // FIX(P2): un seul appel système au lieu de deux await successifs sur le même permis
       final locationStatus = await Permission.locationWhenInUse.status;
       if (locationStatus.isDenied || locationStatus.isPermanentlyDenied) {
         permissions["locationWhenInUse"] = Permission.locationWhenInUse;
       }
     } else if (Platform.isIOS) {
-      // Sur iOS : pas de bluetoothScan/connect dans permission_handler
-      // On vérifie juste la location si nécessaire (!! Error when asked !!)
-      //permissions["locationWhenInUse"] = Permission.locationWhenInUse;
       return true;
     } else {
-      // Autres plateformes (Web, Desktop) -> pas de check
       return true;
     }
 
+    // Request all permissions in one native call to avoid
+    // "A request for permissions is already running" on Android.
+    final statuses = await permissions.values.toList().request();
     for (final entry in permissions.entries) {
-      final permissionStatus = await entry.value.request();
-      if (!permissionStatus.isGranted) {
+      if (statuses[entry.value]?.isGranted != true) {
         _missingPermissions.add(entry.key);
       }
     }
